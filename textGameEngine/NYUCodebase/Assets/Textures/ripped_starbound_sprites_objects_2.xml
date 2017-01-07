@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ripped_starbound_sprites_objects_2.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="electriclight.png"	x="24"	y="0"	width="12"	height="16" frameX="-0" frameY="-0" frameWidth="12" frameHeight="16"/>
+	<SubTexture name="organictorch_orientation1.png"	x="12"	y="0"	width="12"	height="32" frameX="-0" frameY="-0" frameWidth="12" frameHeight="32"/>
+	<SubTexture name="torch_orientation1.png"	x="0"	y="0"	width="12"	height="32" frameX="-0" frameY="-0" frameWidth="12" frameHeight="32"/>
+</TextureAtlas>

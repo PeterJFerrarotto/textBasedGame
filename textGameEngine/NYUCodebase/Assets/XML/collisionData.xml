@@ -1,0 +1,16 @@
+<Collisions>
+  <Collision entityType1="2" entityType2="7" collisionBehavior1="2" collisionBehavior2="3"></Collision>
+  <Collision entityType1="8" entityType2="9" collisionBehavior1="5" collisionBehavior2="3" down="1" up="0" left="0" right="0"></Collision>
+  <Collision entityType1="8" entityType2="9" collisionBehavior1="3" collisionBehavior2="4" down="0" up="1" left="1" right="1"></Collision>
+  <Collision entityType1="2" entityType2="9" collisionBehavior1="2" collisionBehavior2="3"></Collision>
+  <Collision entityType1="8" entityType2="12" collisionBehavior1="4" collisionBehavior2="3"></Collision>
+  <Collision entityType1="8" entityType2="10" collisionBehavior1="7" collisionBehavior2="4"></Collision>
+  <Collision entityType1="2" entityType2="10" collisionBehavior1="2" collisionBehavior2="4"></Collision>
+  <Collision entityType1="8" entityType2="14" collisionBehavior1="7" collisionBehavior2="8" down="1" up="0" left="0" right="0"></Collision>
+  <!--<Collision entityType1="8" entityType2="14" collisionBehavior1="7" collisionBehavior2="4" down="0" up="1" left="1" right="1"></Collision>-->
+  <Collision entityType1="8" entityType2="3" collisionBehavior1="3" collisionBehavior2="2"></Collision>
+  <Collision entityType1="3" entityType2="2" collisionBehavior1="2" collisionBehavior2="2"></Collision>
+  <Collision entityType1="15" entityType2="2" collisionBehavior1="4" collisionBehavior2="2"></Collision>
+  <Collision entityType1="16" entityType2="2" collisionBehavior1="4" collisionBehavior2="2"></Collision>
+  <Collision entityType1="8" entityType2="15" collisionBehavior1="7" collisionBehavior2="4"></Collision>
+</Collisions>

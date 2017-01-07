@@ -1,0 +1,90 @@
+<Entity>
+  <EntityID>HidingFire</EntityID>
+  <Type>15</Type>
+  <subEntities>
+    <First>
+      <EntityID>Base</EntityID>
+      <Animations>
+        <Animation loop="0" type="7" startingIndex="28" endingIndex="28" Starting="1">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="28" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+        <Animtion loop="0" type="0" startingIndex="29" endingIndex="29" Starting="0">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="29" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animtion>
+        <Animation loop="0" type="8" startingIndex="30" endingIndex="31" Starting="0">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="30" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+        <Animation loop="0" type="9" startingIndex="31" endingIndex="30" Starting="0">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="31" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+      </Animations>
+      <Details>
+        <Position x="0" y="0" z="0"></Position>
+        <canCollide>1</canCollide>
+        <doRender>1</doRender>
+      </Details>
+      <Child>
+        <EntityID>Head</EntityID>
+        <Animations>
+          <Animation loop="0" type="7" startingIndex="12" endingIndex="12" Starting="1" animationCollides="0">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="12" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+          <Animtion loop="0" type="0" startingIndex="13" endingIndex="13">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="13" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animtion>
+          <Animation loop="0" type="8" startingIndex="14" endingIndex="15">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="14" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+          <Animation loop="0" type="9" startingIndex="15" endingIndex="14">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="15" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+        </Animations>
+        <Details>
+          <Position x="0" y="1" z="0"></Position>
+          <canCollide>1</canCollide>
+          <doRender>1</doRender>
+        </Details>
+      </Child>
+    </First>
+  </subEntities>
+  <Details>
+    <Scale x="16" y="16"></Scale>
+    <firingDelay>3.0</firingDelay>
+    <isActive>1</isActive>
+    <falls>0</falls>
+    <canCollide>1</canCollide>
+  </Details>
+  <Projectile>
+    <Animations>
+      <Animation loop="1" type="1" startingIndex="21" endingIndex="24" Starting="1">
+        <Texture type="1" layer="1">
+          <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="21" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+        </Texture>
+      </Animation>
+      <Animation loop="0" type="5" startingIndex="25" endingIndex="25">
+        <Texture type="1" layer="1">
+          <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="25" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+        </Texture>
+      </Animation>
+    </Animations>
+    <TriggerSounds>
+      <Sound directory="Assets/Sounds/" fileName="projectile_destruction.wav" soundType="2" soundTrigger="1"></Sound>
+    </TriggerSounds>
+  </Projectile>
+</Entity>

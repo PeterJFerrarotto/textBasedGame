@@ -1,0 +1,28 @@
+<Entity>
+  <EntityID>Box</EntityID>
+  <Type>14</Type>
+  <subEntities>
+    <First>
+      <EntityID>FallingBridge</EntityID>
+      <Texture type="1" layer="1">
+        <EvenSpritesheet sheetName="arne_sprites.png" Directory="Assets/Levels/Spritesheets/" layer="1" index="5" spriteCountY="8" spriteCountX="16"></EvenSpritesheet>
+      </Texture>
+      <Details>
+        <Position x="0.0" y="0.0" z="0.0"></Position>
+        <doRender>1</doRender>
+        <canCollide>1</canCollide>
+        <canCollideWithTiles>0</canCollideWithTiles>
+      </Details>
+    </First>
+  </subEntities>
+  <Details>
+    <Scale x="16" y="16" z="1.0"></Scale>
+    <isStatic>1</isStatic>
+    <falls>0</falls>
+    <canCollide>1</canCollide>
+    <isActive>1</isActive>
+    <CollisionBehavior>8</CollisionBehavior>
+    <TileCollisionBehavior>3</TileCollisionBehavior>
+    <BoundaryBehavior>4</BoundaryBehavior>
+  </Details>
+</Entity>

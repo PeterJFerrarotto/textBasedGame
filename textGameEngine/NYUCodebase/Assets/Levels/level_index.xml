@@ -1,0 +1,11 @@
+<Levels>
+  <Level id="level_01" spriteSheet="arne_sprites" startingLevel="1">
+    <Color r="0.03921568627" b="0.59607843137" g="0.67450980392" a="1.0"></Color>
+  </Level>
+  <Level id="level_02" spriteSheet="arne_sprites" startingLevel="0">
+    <Color r="0.03921568627" b="0.59607843137" g="0.67450980392" a="1.0"></Color>
+  </Level>
+  <Level id="level_03" spriteSheet="ripped_starbound_sprites_solid_floor" startingLevel="0">
+    <Color r="0" g="0" b="0" a="1.0"></Color>
+  </Level>
+</Levels>

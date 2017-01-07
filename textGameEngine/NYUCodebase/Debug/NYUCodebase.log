@@ -1,0 +1,10 @@
+﻿Build started 12/21/2016 1:03:26 PM.
+     1>Project "C:\Users\peter\Documents\CS-3113_HW\Final Project\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (dynamicCodeBase.vcxproj, Homework 3.vcxproj, Homework 4.vcxproj, Homework 3_Restructured.vcxproj, platformerTest.vcxproj, testingCodeBase.vcxproj, tileTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         NYUCodebase.vcxproj -> C:\Users\peter\Documents\CS-3113_HW\Final Project\Debug\Final Project.exe
+     1>Done Building Project "C:\Users\peter\Documents\CS-3113_HW\Final Project\NYUCodebase\NYUCodebase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

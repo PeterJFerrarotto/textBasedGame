@@ -1,0 +1,529 @@
+<Entities>
+  <Entity>
+    <Type>8</Type>
+    <EntityID>Player</EntityID>
+    <subEntities>
+      <First>
+        <EntityID>PlayerTorso</EntityID>
+        <Texture type="1" layer="2">
+          <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="98" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+        </Texture>
+        <Details>
+          <Position x="0" y="1.0" z="0"></Position>
+
+          <Scale x="1" y="1" z="1"></Scale>
+
+          <Velocity x="0" y="0" z="0"></Velocity>
+
+          <Acceleration x="0" y="0" z="0"></Acceleration>
+
+          <Rotation>0</Rotation>
+
+          <rotationalVelocity>0</rotationalVelocity>
+
+          <canCollide>1</canCollide>
+
+          <doRender>1</doRender>
+
+          <boundingType>0</boundingType>
+        </Details>
+        <Child>
+          <EntityID>PlayerLegs</EntityID>
+          <Animations>
+            <Animation loop="0" type="0" startingIndex="87" endingIndex="87" Starting="1">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="87" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animation loop="1" type="1" startingIndex="64" endingIndex="66">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="67" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animation loop="1" type="2" startingIndex="67" endingIndex="69">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="64" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animation loop="0" type="3" startingIndex="71" endingIndex="71">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="71" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animation loop="0" type="4" startingIndex="70" endingIndex="70">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="70" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+          </Animations>
+          <Details>
+            <Position x="0" y="-0.5"></Position>
+            <Scale x="1" y="1"></Scale>
+            <doRender>1</doRender>
+            <canCollide>1</canCollide>
+          </Details>
+          
+          <Sibling>
+            <EntityID>PlayerHead</EntityID>
+            <Texture type="1" layer="2">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="82" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+            <Details>
+              <canCollide>0</canCollide>
+              <Scale x="1" y="1" z="1"></Scale>
+              <Position x="0" y="1" z="0"></Position>
+              <doRender>1</doRender>
+            </Details>
+          </Sibling>
+        </Child>
+      </First>
+    </subEntities>
+    <Details>
+      <firingDelay>0.25</firingDelay>
+      <Position_Offset bottom="1"></Position_Offset>
+      <Velocity x="0" y="0" z="0"></Velocity>
+      <Acceleration x="0" y="0" z="0"></Acceleration>
+      <Scale x="16" y="16" z="1.0"></Scale>
+      <Rotation>0</Rotation>
+      <RotationalVelocity>0</RotationalVelocity>
+      <isActive>1</isActive>
+      <canCollide>1</canCollide>
+      <isInvincible>0</isInvincible>
+      <falls>1</falls>
+      <BoundingType>0</BoundingType>
+      <CollisionBehavior>3</CollisionBehavior>
+      <TileCollisionBehavior>0</TileCollisionBehavior>
+      <BoundaryBehavior>8</BoundaryBehavior>
+      <topSpeed>100</topSpeed>
+      <Layer>1</Layer>
+      <jumpSpeed>100</jumpSpeed>
+      <ParticleEmitters>
+        <Emitter>
+          <emitterType>2</emitterType>
+          <maxLifeTime>0.125</maxLifeTime>
+          <startSize>8</startSize>
+          <endSize>10</endSize>
+          <startColor r="1.0" b="1.0" g="1.0" a="0.8"></startColor>
+          <endColor r="1.0" b="1.0" g="1.0" a="0.0"></endColor>
+          <maximumParticleCount>4</maximumParticleCount>
+          <Position x="0" y="-1.0" z="0"></Position>
+          <velocityDeviation x="20" y="10" z="0"></velocityDeviation>
+          <Texture type="0" layer="3">
+            <Image Directory="Assets/Textures/" imageName="whitePuff00.png"></Image>
+          </Texture>
+        </Emitter>
+      </ParticleEmitters>
+      <CollisionSounds>
+        <Sound directory="Assets/Sounds/" fileName="land_on_ground.wav" direction="1" collisionStrength="2" soundType="0"></Sound>
+        <Sound directory="Assets/Sounds/" fileName="land_on_ground_soft.wav" direction="1" collisionStrength="0" soundType="0"></Sound>
+        <Sound directory="Assets/Sounds/" fileName="land_on_ground_soft.wav" direction="1" collisionStrength="1" soundType="0"></Sound>
+      </CollisionSounds>
+      <TriggerSounds>
+        <Sound directory="Assets/Sounds/" fileName="jump.wav" soundType="2" soundTrigger="0"></Sound>
+        <Sound directory="Assets/Sounds/" fileName="jump.wav" soundType="2" soundTrigger="7"></Sound>
+        <Sound directory="Assets/Sounds/" fileName="gun_fire_once.wav" soundType="2" soundTrigger="4"></Sound>
+      </TriggerSounds>
+    </Details>
+    <Projectile>
+      <Animations>
+        <Animation loop="1" type="1" startingIndex="36" endingIndex="39" Starting="1">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="36" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+        <Animation loop="0" type="5" startingIndex="40" endingIndex="44">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="40" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+      </Animations>
+      <TriggerSounds>
+        <Sound directory="Assets/Sounds/" fileName="projectile_destruction.wav" soundType="2" soundTrigger="1"></Sound>
+      </TriggerSounds>
+    </Projectile>
+  </Entity>
+  <Entity>
+    <Type>4</Type>
+    <EntityID>menuText</EntityID>
+    <Details>
+      <Position x ="-1" y="0.5" z="0"></Position>
+      <DisplayText size="16" spacing="2"></DisplayText>
+      <TextSheet sheetPath="Assets/" sheetName="font2.png"></TextSheet>
+    </Details>
+  </Entity>
+  <Entity>
+    <Type>7</Type>
+    <EntityID>Enemy1</EntityID>
+    <subEntities>
+      <First>
+        <EntityID>PlayerShip</EntityID>
+        <Texture type="2" layer="3">
+          <UnevenSpritesheet sheetName="sheet.png" atlasName="sheet.xml" Directory="Assets/Space shooter assets (300 assets)/Spritesheet/" spriteName="enemyRed1.png" size="0.5"></UnevenSpritesheet>
+        </Texture>
+        <Details>
+          <Position x="0" y="0" z="0"></Position>
+
+          <Scale x="1.5" y="1" z="1"></Scale>
+
+          <Velocity x="0" y="0" z="0"></Velocity>
+
+          <Acceleration x="0" y="0" z="0"></Acceleration>
+
+          <Rotation>0</Rotation>
+
+          <rotationalVelocity>0</rotationalVelocity>
+
+          <canCollide>1</canCollide>
+
+          <doRender>1</doRender>
+
+          <boundingType>0</boundingType>
+        </Details>
+      </First>
+    </subEntities>
+    <Details>
+      <firingDelay>2.5</firingDelay>
+      <Position x="-1.5" y="1.8" z="0"></Position>
+      <Velocity x="0.5" y="0" z="0"></Velocity>
+      <Acceleration x="0" y="0" z="0"></Acceleration>
+      <Scale x="0.5" y="0.25"></Scale>
+      <Rotation>0</Rotation>
+      <RotationalVelocity>0</RotationalVelocity>
+      <isActive>0</isActive>
+      <canCollide>1</canCollide>
+      <isInvincible>0</isInvincible>
+      <falls>0</falls>
+      <BoundingType>0</BoundingType>
+      <CollisionBehavior>3</CollisionBehavior>
+      <BoundaryBehavior>5</BoundaryBehavior>
+      <topSpeed>2.5</topSpeed>
+      <Layer>3</Layer>
+    </Details>
+    <Projectile>
+      <Texture type="2" layer="4">
+        <UnevenSpritesheet sheetName = "sheet.png" atlasName="sheet.xml" Directory="Assets/Space shooter assets (300 assets)/Spritesheet/" spriteName = "laserRed02.png" size="0.5"></UnevenSpritesheet>
+      </Texture>
+    </Projectile>
+  </Entity>
+  <Entity>
+    <Type>9</Type>
+    <EntityID>Enemy1</EntityID>
+    <subEntities>
+      <First>
+        <EntityID>Enemy</EntityID>
+        <Animations>
+          <Animation loop="1" type="1" startingIndex="80" endingIndex="81" Starting="1">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="80" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+        </Animations>
+        <Details>
+          <Scale x="3" y="5" z="1"></Scale>
+
+          <Velocity x="0" y="0" z="0"></Velocity>
+
+          <Acceleration x="0" y="0" z="0"></Acceleration>
+
+          <Rotation>0</Rotation>
+
+          <rotationalVelocity>0</rotationalVelocity>
+
+          <canCollide>1</canCollide>
+
+          <doRender>1</doRender>
+
+          <boundingType>0</boundingType>
+        </Details>
+      </First>
+    </subEntities>
+    <Details>
+      <firingDelay>2.5</firingDelay>
+      <Velocity x="-30" y="0" z="0"></Velocity>
+      <Acceleration x="0" y="0" z="0"></Acceleration>
+      <Scale x="5" y="3" z="1.0"></Scale>
+      <Rotation>0</Rotation>
+      <RotationalVelocity>0</RotationalVelocity>
+      <isActive>0</isActive>
+      <canCollide>1</canCollide>
+      <isInvincible>0</isInvincible>
+      <falls>1</falls>
+      <BoundingType>0</BoundingType>
+      <CollisionBehavior>3</CollisionBehavior>
+      <BoundaryBehavior>5</BoundaryBehavior>
+      <TileCollisionBehavior>2</TileCollisionBehavior>
+      <TileLogicBehavior>0</TileLogicBehavior>
+      <topSpeed>50</topSpeed>
+      <Layer>1</Layer>
+    </Details>
+  </Entity>
+  <Entity>
+    <Type>1</Type>
+    <EntityID>LifeIcon</EntityID>
+    <subEntities>
+      <First>
+        <EntityID>PlayerShip</EntityID>
+        <Texture type="2" layer="3">
+          <UnevenSpritesheet sheetName="sheet.png" atlasName="sheet.xml" Directory="Assets/Space shooter assets (300 assets)/Spritesheet/" spriteName="playerShip2_orange.png" size="0.5"></UnevenSpritesheet>
+        </Texture>
+        <Details>
+          <doRender>1</doRender>
+          <Scale x="1.5"></Scale>
+          <canCollide>0</canCollide>
+        </Details>
+      </First>
+    </subEntities>
+    <Details>
+      <Position x="-3.4" y="-1.8"></Position>
+      <Scale x="0.25" y="0.125"></Scale>
+      <Layer>99</Layer>
+      <canCollide>0</canCollide>
+      <falls>0</falls>
+    </Details>
+  </Entity>
+  <Entity>
+    <Type>12</Type>
+    <EntityID>Coin</EntityID>
+    <subEntities>
+      <First>
+        <EntityID>Coin</EntityID>
+        <Animations>
+          <Animation loop="1" type="0" startingIndex="51" endingIndex="54" Starting="1">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="51" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+          <Animation loop ="0" type="6" startingIndex="48" endingIndex="50">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="48" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+        </Animations>
+        <Details>
+          <Position x="0" y="0"></Position>
+          <Scale x="1" y="1"></Scale>
+          <doRender>1</doRender>
+          <canCollide>1</canCollide>
+        </Details>
+      </First>
+    </subEntities>
+    <Details>
+      <falls>0</falls>
+      <isStatic>1</isStatic>
+      <canCollide>1</canCollide>
+      <isActive>1</isActive>
+      <rotationalVelocity>0</rotationalVelocity>
+      <Scale x="16" y="16" z="1"></Scale>
+      <TriggerSounds>
+        <Sound directory="Assets/Sounds/" fileName="coin_pickup.wav" soundType="2" soundTrigger="2"></Sound>
+      </TriggerSounds>
+    </Details>
+  </Entity>
+  <Entity>
+    <EntityID>pointsIndicator</EntityID>
+    <Type>6</Type>
+    <Details>
+      <DisplayText size="16" spacing="1"></DisplayText>
+      <TextSheet sheetPath="Assets/" sheetName="font2.png"></TextSheet>
+    </Details>
+  </Entity>
+  <Entity>
+    <EntityID>warp</EntityID>
+    <Type>13</Type>
+    <subEntities>
+      <First>
+        <EntityID>Door</EntityID>
+        <Texture type="2" layer="1">
+          <UnevenSpritesheet sheetName="ripped_starbound_sprites_objects_small.png" atlasName="ripped_starbound_sprites_objects_small.xml" Directory="Assets/Textures/" spriteName="electricdoor.png" size="1.0"></UnevenSpritesheet>
+        </Texture>
+        <Details>
+          <canCollide>1</canCollide>
+          <doRender>1</doRender>
+        </Details>
+      </First>
+    </subEntities>
+    <Details>
+      <Velocity x="0" y="0" z="0"></Velocity>
+      <Acceleration x="0" y="0" z="0"></Acceleration>
+      <Scale x="16" y="16" z="1.0"></Scale>
+      <Rotation>0</Rotation>
+      <RotationalVelocity>0</RotationalVelocity>
+      <isActive>1</isActive>
+      <canCollide>1</canCollide>
+      <isInvincible>1</isInvincible>
+      <falls>0</falls>
+      <BoundingType>0</BoundingType>
+      <Layer>1</Layer>
+    </Details>
+  </Entity>
+  <Entity>
+    <EntityID>HidingFire</EntityID>
+    <Type>15</Type>
+    <subEntities>
+      <First>
+        <EntityID>Base</EntityID>
+        <Animations>
+          <Animation loop="0" type="7" startingIndex="28" endingIndex="28" Starting="1">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="28" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+          <Animtion loop="0" type="0" startingIndex="29" endingIndex="29" Starting="0">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="29" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animtion>
+          <Animation loop="0" type="8" startingIndex="30" endingIndex="31" Starting="0" framesPerImage="4">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="30" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+          <Animation loop="0" type="9" startingIndex="31" endingIndex="30" Starting="0">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="31" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+        </Animations>
+        <Details>
+          <Position x="0" y="0" z="0"></Position>
+          <canCollide>1</canCollide>
+          <doRender>1</doRender>
+        </Details>
+        <Child>
+          <EntityID>Head</EntityID>
+          <Animations>
+            <Animation loop="0" type="7" startingIndex="12" endingIndex="12" Starting="1" animationCollides="0">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="12" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animtion loop="0" type="0" startingIndex="13" endingIndex="13">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="13" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animtion>
+            <Animation loop="0" type="8" startingIndex="14" endingIndex="15" framesPerImage="4">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="14" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animation loop="0" type="9" startingIndex="15" endingIndex="14">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="15" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+          </Animations>
+          <Details>
+            <Position x="0" y="1" z="0"></Position>
+            <canCollide>1</canCollide>
+            <doRender>1</doRender>
+          </Details>
+        </Child>
+      </First>
+    </subEntities>
+    <Details>
+      <Scale x="16" y="16"></Scale>
+      <firingDelay>3.0</firingDelay>
+      <isActive>1</isActive>
+      <falls>0</falls>
+      <canCollide>1</canCollide>
+    </Details>
+    <Projectile>
+      <Animations>
+        <Animation loop="1" type="1" startingIndex="21" endingIndex="24" Starting="1">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="21" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+        <Animation loop="0" type="5" startingIndex="25" endingIndex="25">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="25" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+      </Animations>
+      <TriggerSounds>
+        <Sound directory="Assets/Sounds/" fileName="projectile_destruction.wav" soundType="2" soundTrigger="1"></Sound>
+      </TriggerSounds>
+    </Projectile>
+  </Entity>
+  <Entity>
+    <EntityID>EnemyTurret</EntityID>
+    <Type>16</Type>
+    <subEntities>
+      <First>
+        <EntityID>Base</EntityID>
+        <Animations>
+          <Animtion loop="0" type="0" startingIndex="29" endingIndex="29" Starting="0">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="29" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animtion>
+          <Animation loop="0" type="8" startingIndex="30" endingIndex="31" Starting="0">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="30" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+          <Animation loop="0" type="9" startingIndex="31" endingIndex="30" Starting="0">
+            <Texture type="1" layer="1">
+              <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="31" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+            </Texture>
+          </Animation>
+        </Animations>
+        <Details>
+          <Position x="0" y="0" z="0"></Position>
+          <canCollide>1</canCollide>
+          <doRender>1</doRender>
+        </Details>
+        <Child>
+          <EntityID>Head</EntityID>
+          <Animations>
+            <Animtion loop="0" type="0" startingIndex="13" endingIndex="13">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="13" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animtion>
+            <Animation loop="0" type="8" startingIndex="14" endingIndex="15">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="14" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+            <Animation loop="0" type="9" startingIndex="15" endingIndex="14">
+              <Texture type="1" layer="1">
+                <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="15" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+              </Texture>
+            </Animation>
+          </Animations>
+          <Details>
+            <Position x="0" y="1" z="0"></Position>
+            <canCollide>1</canCollide>
+            <doRender>1</doRender>
+          </Details>
+        </Child>
+      </First>
+    </subEntities>
+    <Details>
+      <Scale x="16" y="16"></Scale>
+      <firingDelay>3.0</firingDelay>
+      <isActive>1</isActive>
+      <falls>0</falls>
+      <canCollide>1</canCollide>
+    </Details>
+    <Projectile>
+      <Animations>
+        <Animation loop="1" type="1" startingIndex="21" endingIndex="24" Starting="1">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="21" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+        <Animation loop="0" type="5" startingIndex="25" endingIndex="25">
+          <Texture type="1" layer="1">
+            <EvenSpritesheet Directory="Assets/Levels/Spritesheets/" index="25" sheetName="arne_sprites.png" layer="1" spriteCountX="16" spriteCountY="8"></EvenSpritesheet>
+          </Texture>
+        </Animation>
+      </Animations>
+      <TriggerSounds>
+        <Sound directory="Assets/Sounds/" fileName="projectile_destruction.wav" soundType="2" soundTrigger="1"></Sound>
+      </TriggerSounds>
+    </Projectile>
+  </Entity>
+</Entities>

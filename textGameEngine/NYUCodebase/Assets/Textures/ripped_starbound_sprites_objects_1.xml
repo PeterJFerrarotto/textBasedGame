@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ripped_starbound_sprites_objects_1.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="flickeringfluorescentlight_orientation1.png"	x="8"	y="0"	width="8"	height="48" frameX="-0" frameY="-0" frameWidth="8" frameHeight="48"/>
+	<SubTexture name="fluorescentlight_orientation2.png"	x="0"	y="0"	width="8"	height="48" frameX="-0" frameY="-0" frameWidth="8" frameHeight="48"/>
+</TextureAtlas>

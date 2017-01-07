@@ -1,0 +1,46 @@
+<tileset name="sheet" tilewidth="70" tileheight="105" tilecount="5460" columns="24">
+ <image source="Assets/sheet.png" width="1680" height="840"/>
+ <tile id="0">
+  <objectgroup draworder="index">
+   <properties>
+    <property name="canCollide" type="bool" value="true"/>
+   </properties>
+   <object id="1" x="2" y="-1" width="66" height="70"/>
+  </objectgroup>
+ </tile>
+ <tile id="1">
+  <objectgroup draworder="index">
+   <properties>
+    <property name="canCollide" type="bool" value="true"/>
+   </properties>
+  </objectgroup>
+ </tile>
+ <tile id="2">
+  <objectgroup draworder="index">
+   <properties>
+    <property name="canCollide" type="bool" value="true"/>
+   </properties>
+  </objectgroup>
+ </tile>
+ <tile id="3">
+  <objectgroup draworder="index">
+   <properties>
+    <property name="canCollide" type="bool" value="true"/>
+   </properties>
+  </objectgroup>
+ </tile>
+ <tile id="4">
+  <objectgroup draworder="index">
+   <properties>
+    <property name="canCollide" type="bool" value="true"/>
+   </properties>
+  </objectgroup>
+ </tile>
+ <tile id="131">
+  <objectgroup draworder="index">
+   <properties>
+    <property name="canCollide" type="bool" value="false"/>
+   </properties>
+  </objectgroup>
+ </tile>
+</tileset>

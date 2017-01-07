@@ -1,0 +1,6 @@
+#ifndef _ENUM_HELPER_H
+#define _ENUM_HELPER_H
+
+enum DIRECTION { UP, DOWN, LEFT, RIGHT, X, Y, ALL_DIRECTIONS, DIRECTION_SIZE };
+
+#endif

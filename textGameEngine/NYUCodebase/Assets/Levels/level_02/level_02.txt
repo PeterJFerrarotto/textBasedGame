@@ -1,0 +1,593 @@
+[header]
+width=50
+height=50
+tilewidth=16
+tileheight=16
+orientation=orthogonal
+backgroundColor=#ff0a98ac
+
+[tilesets]
+tileset=../Spritesheets/arne_sprites.png,16,16,0,0
+tileset=../../../../../Homework 4/NYUCodebase/Assets/Levels/Spritesheets/ripped_starbound_sprites_solid_floor.png,16,16,0,0
+
+[layer]
+type=Tile Layer 2
+data=
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+21,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+21,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+21,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+21,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+[layer]
+type=Tiles
+data=
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,0,0,4,4,4,4,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,0,0,4,4,4,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+4,4,0,0,0,0,0,0,4,6,6,6,6,6,6,0,0,0,0,0,0,6,6,6,6,6,6,6,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,4,4,4,4,
+4,4,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+6,6,6,6,6,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+0,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,
+4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+1,2,2,2,2,2,2,2,2,3,0,0,0,0,0,0,1,2,2,2,2,3,6,6,6,6,6,6,6,6,0,0,0,0,0,6,6,6,6,6,6,6,6,4,4,4,4,4,4,4,
+34,34,34,34,34,34,34,34,34,34,0,0,0,0,0,0,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+34,34,34,34,34,34,34,34,34,34,0,0,0,0,0,0,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,
+34,34,34,34,34,34,34,34,34,34,0,0,0,0,0,0,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,4,4,4,4
+
+[ObjectsLayer]
+# Player
+type=8
+location=1,46,1,1
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# hidingFire
+type=15
+location=16,46,1,1
+firingRadius=160
+hidingRadius=48
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=30,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=5,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# hidingFire
+type=15
+location=43,35,1,1
+firingRadius=10000
+hidingRadius=48
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# WarpToLevel3
+type=13
+location=49,17,1,1
+objectLayer=1
+renderLayer=1
+warpDestination=level_03
+
+[ObjectsLayer]
+# hidingFire
+type=15
+location=44,35,1,1
+firingRadius=10000
+hidingRadius=48
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=6,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=7,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=8,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=12,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=9,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=10,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=11,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=16,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=19,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=20,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=13,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=18,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=14,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=17,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=15,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=24,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=33,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=30,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=27,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=31,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=34,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=28,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=36,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=21,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=29,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=32,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=26,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=22,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=35,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=25,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=23,36,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=31,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=32,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=33,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=34,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# hidingFire
+type=15
+location=1,28,1,1
+firingRadius=10000
+hidingRadius=48
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# hidingFire
+type=15
+location=0,28,1,1
+firingRadius=10000
+hidingRadius=48
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=15,29,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=20,29,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=19,29,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=17,29,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=16,29,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=18,29,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=10,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=11,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=12,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=13,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=14,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# staticFallingObject
+type=14
+location=15,47,1,1
+objectLayer=1
+renderLayer=1
+xmlDescriber=XML/Objects/fallingBridgeSegment.xml
+
+[ObjectsLayer]
+# ENEMY
+type=9
+location=32,24,1,1
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# ENEMY
+type=9
+location=35,18,1,1
+objectLayer=1
+renderLayer=1
+
+[ObjectsLayer]
+# ENEMY
+type=9
+location=31,12,1,1
+objectLayer=1
+renderLayer=1
+
